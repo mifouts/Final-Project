@@ -421,3 +421,7 @@ nav{
     padding: 1.25rem;
     flex-shrink: 0;
 }
+
+.text__container {
+    margin-top: 16px;
+}
