@@ -608,6 +608,8 @@ QUALITY WORK
 
 .values__img--wrapper {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .values__para {
