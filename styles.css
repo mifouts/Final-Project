@@ -788,6 +788,13 @@ QUALITY WORK
     font-size: 20px;
 }
 
+.plan__header .price {
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 36px;
+}
+
 
 
 
