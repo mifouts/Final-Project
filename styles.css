@@ -504,6 +504,8 @@ QUALITY WORK
 
 .quality__work--img__wrapper {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .quality__work--img {
