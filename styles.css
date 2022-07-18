@@ -514,3 +514,75 @@ QUALITY WORK
     padding: 12px 32px;
     font-size: 14px;
 }
+
+/* STEPS */
+
+.steps__container {
+    position: relative;
+}
+
+.steps__row {
+    display: flex;
+}
+
+.steps__img--wrapper {
+    flex-shrink: 0;
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.steps__img {
+    border-radius: 4px;
+}
+
+.steps__para{
+   width: 50%;
+   padding: 32px 0;
+   margin-left: 4rem;
+    
+}
+
+.steps__list {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps {
+    margin-top: 32px;
+    display: flex;
+
+}
+
+.step__number {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgba(203,213,224,var(--tw-text-opacity));
+}
+
+.step__text {
+    margin-left: 24px;
+}
+
+.step__heading {
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    max-width: 320px;
+    line-height: 2;
+    font-size: 0.875rem;
+    --tw-text-opacity: 1;
+    color: rgba(113,128,150,var(--tw-text-opacity));
+    font-weight: 500;
+}
+
