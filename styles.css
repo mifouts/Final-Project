@@ -684,6 +684,109 @@ QUALITY WORK
 }
 
 
+/* PLANS */
+
+.pricing__subheader {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.pricing__plans--container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan {
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    max-width: 24rem;
+    margin-top: 4rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.5rem;
+    --tw-shadow: 0 1px 3px 0rgba(0,0,0,0.1),0 1px 2px 0rgba(0,0,0,0.06);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    position: relative;
+    padding-top: 0.5rem;
+    --tw-text-opacity: 1;
+    color: rgba(26,32,44,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+}
+
+.pricing__description {
+    width: 100%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.plan__highlight1 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 0.5rem;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan__header {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    line-height: 1.625;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.plan__features {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 2rem;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    flex: 1 1 0%;
+}
+
+.plan__action {
+    padding: 32px 16px;
+}
+
+.buy__now--button1 {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-radius: 9999px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    font-size: 0.875rem;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    color: rgba(247,250,252,var(--tw-text-opacity));
+    transition-duration: 300ms;
+}
+
+.plan__header .name {
+    font-weight: 700;
+    font-size: 20px;
+}
 
 
 
