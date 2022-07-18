@@ -795,6 +795,13 @@ QUALITY WORK
     font-size: 36px;
 }
 
+.plan__header .duration {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    --tw-text-opacity: 1;
+    color: rgba(160,174,192,var(--tw-text-opacity));
+}
+
 
 
 
