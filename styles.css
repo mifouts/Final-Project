@@ -122,8 +122,7 @@ div{
 .text__left {
     text-align: left;
 }
-.learn__more--button {
-    padding: 0.75rem 2rem;
+.learn-more__button {
     font-weight: 700;
     --tw-bg-opacity: 1;
     background-color: rgba(100,21,255,var(--tw-bg-opacity));
@@ -136,11 +135,11 @@ div{
     margin-right: auto;
     cursor: pointer;
     padding: 12px 32px;
-    margin: 32px 331.75px 0 0;
+    margin-top: 32px;
 
 }
 
-.learn__more--button:hover {
+.learn-more__button:hover {
     filter: brightness(70%);
 }
 
@@ -304,7 +303,7 @@ nav{
 
 
 .landing__header{
-    font-size: 36px;
+    font-size: 30px;
     color: #1a202c;
 }
 
@@ -605,6 +604,7 @@ QUALITY WORK
     padding: 80px 0;
     align-items: center;
 }
+
 
 .values {
     display: flex;
