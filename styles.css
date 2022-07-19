@@ -95,7 +95,6 @@ div{
     color: rgba(100,21,255,var(--tw-text-opacity));
     font-size: 16px;
     letter-spacing: 0.1em;
-    text-align: center;
 }
 
 .section__heading {
@@ -105,11 +104,11 @@ div{
     letter-spacing: 0.025em;
     text-align: center;
     line-height: 1.25;
+
 }
 
 .section__description {
     width: 100%;
-    text-align: center;
     margin-top: 1rem;
     font-size: 1.125rem;
     font-weight: 500;
@@ -117,6 +116,7 @@ div{
     --tw-text-opacity: 1;
     color: rgba(124,139,161,var(--tw-text-opacity));
     max-width: 36rem;
+    text-align: center;
 }
 
 .text__left {
@@ -143,6 +143,7 @@ div{
 .learn__more--button:hover {
     filter: brightness(70%);
 }
+
 
 /* BLOBS */
 
@@ -397,7 +398,7 @@ nav{
 
 /* FEATURES */
 
-.features{
+.features {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -418,6 +419,7 @@ nav{
     font-weight: 700;
     --tw-text-opacity: 1;
     color: rgba(100,21,255,var(--tw-text-opacity));
+    text-align: center;
 }
 
 .features__subheading--text{
@@ -426,6 +428,8 @@ nav{
     letter-spacing: .1em;
     font-weight: 700;
     --tw-text-opacity: 1;
+    font-size: 16px;
+    text-align: center;
 }
 
 .features__heading {
@@ -434,6 +438,7 @@ nav{
     font-weight: 900;
     letter-spacing: .025em;
     text-align: center;
+    font-size: 48px;
 }
 
 .features__heading--text {
@@ -441,17 +446,7 @@ nav{
     color: rgba(100,21,255,var(--tw-text-opacity));
 }
 
-.features__description {
-    width: 100%;
-    text-align: center;
-    margin-top: 1rem;
-    font-size: .875rem;
-    font-weight: 500;
-    line-height: 1.625;
-    --tw-text-opacity: 1;
-    color: rgba(124,139,161,var(--tw-text-opacity));
-    max-width: 36rem;
-}
+
 
 .features__vertical--spacer{
     margin-top: 2.5rem;
@@ -459,16 +454,19 @@ nav{
 }
 
 
-.features__card {
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    margin-left: 16px;
-    margin-right: 16px;
-    padding: 32px 8px;
+.service__title {
+    color: #243e63;
+    margin-top: 16px;
+    letter-spacing: .025rem;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.service__description {
+    margin-top: 16px;
+    font-weight: 500;
+    line-height: 2;
 }
 
 .services {
@@ -479,14 +477,16 @@ nav{
 
 .image__container {
     border-width: 1px;
-    text-align: center;
     border-radius: 9999px;
     padding: 1.25rem;
     flex-shrink: 0;
 }
 
 .text__container {
-    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 8px;
 }
 
 /* 
