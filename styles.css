@@ -283,6 +283,10 @@ nav{
 
 }
 
+.header__logo--link {
+    font-size: 24px;
+}
+
 /* LANDING */
 
 #landing{
