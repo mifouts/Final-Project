@@ -698,6 +698,12 @@ QUALITY WORK
 .pricing__plans--container {
     display: flex;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
 }
 
 .plan {
@@ -937,7 +943,29 @@ QUALITY WORK
 }
 
 .buy__now--button3 {
-    
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-radius: 9999px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    font-size: 0.875rem;
+    --tw-text-opacity: 1;
+    color: rgba(247,250,252,var(--tw-text-opacity));
+    transition-duration: 300ms;
+    --tw-bg-opacity: 1;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
 }
 
 /* TESTIMONIALS */
