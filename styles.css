@@ -757,6 +757,8 @@ QUALITY WORK
     flex: 1 1 0%;
 }
 
+
+
 .plan__action {
     padding: 32px 16px;
 }
@@ -804,6 +806,67 @@ QUALITY WORK
     letter-spacing: 0.1em;
     --tw-text-opacity: 1;
     color: rgba(160,174,192,var(--tw-text-opacity));
+}
+
+.personal__plan {
+    width: 100%;
+    max-width: 24rem;
+    margin-top: 4rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.5rem;
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    position: relative;
+    padding-top: 0.5rem;
+    --tw-text-opacity: 1;
+    color: rgba(26,32,44,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+    display: flex;
+    flex-direction: column;
+}
+
+.business__plan {
+    width: 100%;
+    max-width: 24rem;
+    margin-top: 4rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.5rem;
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    position: relative;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    background-position: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    --tw-bg-opacity: 1;
+    background-color: rgba(100,21,255,var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(247,250,252,var(--tw-text-opacity));
+}
+
+.enterprise__plan {
+    
+}
+
+/* TESTIMONIALS */
+
+.testimonials .section__title {
+    text-align: center;
+}
+
+.testimonials .section__description {
+    align-items: center;
 }
 
 
