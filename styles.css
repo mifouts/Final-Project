@@ -603,12 +603,14 @@ QUALITY WORK
     justify-content: space-between;
     padding: 80px 0;
     align-items: center;
+    margin: 0 auto;
 }
 
 
 .values {
     display: flex;
     padding-bottom: 32px;
+    
 }
 
 
@@ -686,6 +688,8 @@ QUALITY WORK
     --tw-text-opacity: 1;
     color: rgba(113,128,150,var(--tw-text-opacity));
 }
+
+
 
 
 /* PLANS */
