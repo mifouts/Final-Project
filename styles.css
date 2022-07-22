@@ -9,6 +9,11 @@
     
 }
 
+body {
+    font-family: inherit;
+    line-height: inherit;
+}
+
 html{
     scroll-behavior: smooth;
     line-height: 1.5;
@@ -1030,9 +1035,11 @@ QUALITY WORK
 .customer__ratings--slider {
     width: 100%;
     margin-top: 40px;
+    text-align: center;
     box-sizing: border-box;
     user-select: none;
     touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .customer__ratings--list {
@@ -1163,4 +1170,34 @@ QUALITY WORK
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     border-right-width: 1px;
+}
+
+
+
+
+
+
+
+
+
+/* SMARTPHONES, TABLETS, LARGE PHONES */
+
+@media (min-width: 1024px) {
+    .testimonials__container {
+        padding-top: 96px 0;
+    }
+
+    .testimonial__description {
+        padding-left: 64px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .testimonial__description {
+        width: 58.3333%;
+        margin-top: 0px;
+        padding-left: 3rem;
+        order: 9999;
+    }
 }
