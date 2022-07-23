@@ -703,6 +703,13 @@ QUALITY WORK
 
 /* PLANS */
 
+.pricing__container .section__heading {
+    text-align: center;
+    font-size: 48px;
+}
+
+
+
 .pricing__subheader {
     text-align: center;
     margin-bottom: 16px;
