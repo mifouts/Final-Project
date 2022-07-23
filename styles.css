@@ -709,7 +709,6 @@ QUALITY WORK
 }
 
 
-
 .pricing__subheader {
     text-align: center;
     margin-bottom: 16px;
@@ -750,6 +749,7 @@ QUALITY WORK
     width: 100%;
     text-align: center;
     margin-top: 16px;
+    font-size: 18px;
 }
 
 .plan__highlight1 {
