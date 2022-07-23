@@ -1052,24 +1052,26 @@ QUALITY WORK
 }
 
 .customer__info--container {
-    margin-top: auto;
     display: flex;
-    -webkit-box-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
     align-items: center;
 }
 
 .customer__info {
     display: flex;
-    -webkit-box-align: center;
-    align-items: center;
 }
 
 .customer__img {
     border-radius: 9999px;
-    width: 48px;
-    height: 48px;
+    width: 80px;
+    height: 80px;
+}
+
+.customer__text--info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    justify-content: center;
 }
 
 
@@ -1083,6 +1085,10 @@ QUALITY WORK
     --tw-text-opacity: 1;
     color: rgba(124,139,161,var(--tw-text-opacity));
     font-size: 16px;
+}
+
+.customer__review {
+    margin-top: 40px;
 }
 
 .panel__controls {
