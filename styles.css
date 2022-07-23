@@ -414,13 +414,14 @@ nav{
 
 .features .section__heading {
     text-align: center;
+    font-size: 48px;
 }
 
 
 .features__column {
     display: flex;
     width: calc(100%/3);
-    padding: 2rem 0.5rem;
+    padding: 32px 24px;
     align-items: flex-start;
     height: 100%;
 }
