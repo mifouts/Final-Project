@@ -1004,6 +1004,9 @@ QUALITY WORK
 
 .testimonial__img--wrapper {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .testimonial__description .section__heading {
