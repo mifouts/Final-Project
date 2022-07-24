@@ -720,7 +720,10 @@ QUALITY WORK
 }
 
 .pricing__header--container {
-    
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pricing__plans--container {
