@@ -1151,7 +1151,19 @@ QUALITY WORK
     border-right-width: 1px;
 }
 
+/* FAQS */
 
+.faqs__header--container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faqs__container .section__heading {
+    text-align: center;
+    font-size: 48px;
+}
 
 
 
