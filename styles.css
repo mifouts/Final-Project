@@ -642,6 +642,11 @@ QUALITY WORK
     width: 50%;
 }
 
+.values__para .section__heading {
+    margin-top: 16px;
+    font-size: 48px;
+}
+
 .value__img--wrapper1 {
     margin: 0 1.86px;
     display: inline-block;
