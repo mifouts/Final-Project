@@ -548,6 +548,11 @@ QUALITY WORK
     display: flex;
 }
 
+.steps__para .section__heading {
+    font-size: 48px;
+    margin-top: 16px;
+}
+
 .steps__img--wrapper {
     flex-shrink: 0;
     position: relative;
@@ -568,7 +573,6 @@ QUALITY WORK
 }
 
 .steps__list {
-    margin: 48px 0 0;
     display: flex;
     flex-direction: column;
 }
