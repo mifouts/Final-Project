@@ -719,12 +719,15 @@ QUALITY WORK
     margin-bottom: 16px;
 }
 
+.pricing__header--container {
+    
+}
+
 .pricing__plans--container {
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    flex-direction: column;
     -webkit-box-align: center;
     align-items: center;
     position: relative;
@@ -755,6 +758,7 @@ QUALITY WORK
     text-align: center;
     margin-top: 16px;
     font-size: 18px;
+    max-width: 576px;
 }
 
 .plan__highlight1 {
