@@ -1165,6 +1165,57 @@ QUALITY WORK
     font-size: 48px;
 }
 
+.faqs__list--container {
+    margin-top: 48px;
+    max-width: 896px;
+    position: relative;
+}
+
+.question {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 1.25rem;
+    padding: 1.25rem 2rem;
+    border-radius: 0.5rem;
+    --tw-text-opacity: 1;
+    color: rgba(45,55,72,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(237,242,247,var(--tw-bg-opacity));
+    transition-duration: 300ms;
+}
+
+.question__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question__text {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.question__toggle--icon {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    margin-left: 8px;
+    transition-duration: 300ms;
+}
+
+.question__toggle--icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.answer {
+    pointer-events: none;
+    font-size: 0.875rem;
+    line-height: 1.625;
+}
+
+
+
+
 
 
 
