@@ -1306,6 +1306,51 @@ QUALITY WORK
     padding: 5rem 2rem
 }
 
+.footer__row {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.links__column--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    flex-wrap: wrap;
+}
+
+.link__heading {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(247, 250, 252);
+    text-align: left;
+
+}
+
+.link__list {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link__sublist {
+    margin-top: 3px;
+    padding-bottom: 4px;
+    text-align: left;
+}
+
+.link__text {
+    color: rgb(247, 250, 252);
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease 0s;
+}
 
 
 
