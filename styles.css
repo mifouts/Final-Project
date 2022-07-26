@@ -1456,7 +1456,7 @@ QUALITY WORK
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .testimonial__description {
         width: 58.3333%;
         margin-top: 0px;
@@ -1474,15 +1474,8 @@ QUALITY WORK
     .customer__info--container {
         text-align: left;
     }
-}
 
-
-@media (min-width: 640px) {
-    .section__heading {
-        font-size: 36px;
-    }
-
-    .customer__info--container {
-        flex-direction: row;
+    .navbar__menu--button {
+        display: flex;
     }
 }
