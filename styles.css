@@ -1350,6 +1350,35 @@ QUALITY WORK
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
     transition: all 300ms ease 0s;
+    display: inline-block;
+    position: relative;
+}
+
+.link__text:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.link__text:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.footer__divider {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-bottom-width: 2px;
+    --tw-border-opacity: 1;
+    border-color: rgba(116,44,255,var(--tw-border-opacity));
+    width: 100%;
 }
 
 
