@@ -277,6 +277,52 @@ nav{
     filter: brightness(75%);
 }
 
+.nav__link {
+    font-weight: 500;
+    margin: 0 24px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    font-weight: 500;
+    transition: all 300ms ease;
+  }
+  
+  .nav__signup:hover {
+    background-color: #5011cc;
+  }
+  
+  .navbar__menu {
+    display: none;
+  }
+  
+  .link__hover-effect {
+    transition: all 400ms ease;
+    border-bottom: 2px transparent solid;
+  }
+  
+  .link__hover-effect:hover {
+    border-color: #6415ff;
+    color: #6415ff;
+  }
+  
+  .nav__login {
+    margin-left: 48px !important;
+  }
+  
+  .nav__signup {
+    margin: 0 !important;
+    padding: 12px 32px;
+    background-color: #6415ff;
+    color: #fff;
+    border-radius: 50px;
+  }
+
+  .navbar__menu--button {
+    background-color: transparent;
+    color: #6415ff;
+    padding: 0;
+    display: none;
+  }
 
 /* HEADER */
 
@@ -1478,4 +1524,16 @@ QUALITY WORK
     .navbar__menu--button {
         display: flex;
     }
+
+    .nav__link--list {
+        display: none;
+      }
+    
+      .navbar__menu {
+        display: flex;
+      }
+
+      .nav {
+        margin: 8px 0;
+      }
 }
