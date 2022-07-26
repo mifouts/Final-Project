@@ -1381,6 +1381,60 @@ QUALITY WORK
     width: 100%;
 }
 
+.copyright__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__container {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    width: 32px;
+}
+
+.logo__text {
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    --tw-text-opacity: 1;
+    color: rgba(247,250,252,var(--tw-text-opacity));
+}
+
+.copyright__text {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgba(203,213,224,var(--tw-text-opacity));
+}
+
+.social__links--container {
+    display: flex;
+}
+
+.social__link {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(247,250,252,var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(26,32,44,var(--tw-text-opacity));
+    transition-duration: 300ms;
+    margin-right: 16px;
+}
+
+.social__link svg {
+    width: 16px;
+    height: 16px;
+}
+
 
 
 
