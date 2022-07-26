@@ -345,6 +345,33 @@ nav{
     opacity: 0;
   }
 
+  .menu--open .navbar__menu--backdrop--item {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .menu--open .navbar__menu--backdrop {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .navbar__menu--links {
+    display: none !important;}
+
+    .navbar__menu--backdrop--button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        color: #6415ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-15px, 25px);
+      }
+
 /* HEADER */
 
 .header__logo{
