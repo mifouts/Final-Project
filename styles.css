@@ -1753,6 +1753,10 @@ QUALITY WORK
     align-items: center;
    }
 
+   .testimonials {
+    flex-direction: column;
+   }
+
 
     .customer__info--container {
         text-align: left;
