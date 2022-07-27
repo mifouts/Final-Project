@@ -78,6 +78,8 @@ button, input, optgroup, select, textarea {
 
 img {
     border-style: solid;
+    height: auto;
+    max-width: 100%;
 }
 
 img, video {
@@ -271,20 +273,21 @@ nav{
     background-color: #6415ff;
     padding: 12px 32px;
     margin: 0;
+    transition: filter 300ms ease;
+    
 }
 
 .nav__link--primary:hover{
+    background-color: #5011cc;
     filter: brightness(75%);
 }
 
 .nav__link {
     font-weight: 500;
     margin: 0 24px;
-    padding-bottom: 4px;
     font-size: 14px;
     letter-spacing: 0.025em;
     font-weight: 500;
-    transition: all 300ms ease;
   }
   
   .nav__signup:hover {
@@ -343,6 +346,27 @@ nav{
     padding: 24px;
     transition: all 500ms ease;
     opacity: 0;
+  }
+
+  .navbar__menu--backdrop--item {
+    margin: 32px 0;
+    text-align: center;
+  }
+
+  .navbar__menu--item--text {
+    font-size: 18px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+    color: black;
+    text-align: center !important;
+  }
+
+  .nav__signup {
+    margin: 0 !important;
+    padding: 12px 32px;
+    background-color: #6415ff;
+    color: #fff;
+    border-radius: 50px;
   }
 
   .menu--open .navbar__menu--backdrop--item {
@@ -493,7 +517,6 @@ nav{
     min-width: 0px;
     width: 100%;
     max-width: 32rem;
-    position: absolute;
     right: 0;
     bottom: 0;
 }
@@ -1564,6 +1587,168 @@ QUALITY WORK
     .section__heading {
         text-align: left;
     }
+
+    .row__landing {
+        flex-direction: column;
+    }
+
+    .landing__column {
+        width: 100%;
+    }
+
+    .landing__header {
+        text-align: center;
+    }
+
+    .landing__para {
+        margin: 20px 0;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .landing__customers {
+        margin-top: 48px;
+    }
+
+    .landing__img--wrapper {
+        margin-top: 48px;
+        width: 100%;
+    }
+
+    .landing__img {
+        padding-right: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .features .section__heading {
+        font-size: 36px;
+        line-height: 1.5;
+    }
+
+    .features__column {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .service__title {
+        text-align: center;
+    }
+
+    .quality-work {
+        flex-direction: column;
+    }
+
+    .quality__work--description {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        padding: 0;
+        margin-top: 64px;
+    }
+
+    .quality-work .section__heading {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .quality-work .section__description {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    .learn-more__button {
+        margin: 0 auto;
+        margin: 32px;
+    }
+
+    .quality__work--img__wrapper {
+        width: 100%;
+    }
+
+    .steps__row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .steps__img--wrapper {
+        width: 100%;
+    }
+
+    .steps__img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .steps__para {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        padding: 0;
+        margin-top: 64px;
+    }
+
+   .steps__para--header {
+    text-align: center;
+   }
+
+   .steps__para .section__heading {
+    text-align: center;
+   }
+
+   .steps__list {
+    align-items: center;
+   }
+
+   .values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .values__para {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+   }
+
+   .values .section__heading {
+    font-size: 30px;
+    text-align: center;
+   }
+
+   .values__description {
+    font-size: 14px;
+    text-align: center;
+   }
+
+   .value__title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .value__description {
+    text-align: center;
+   }
+
+   .values__img--wrapper {
+    width: 100%;
+   }
+
+   .values__img {
+    width: 100%;
+   }
+
+   .pricing__plans--container {
+    align-items: center;
+   }
+
 
     .customer__info--container {
         text-align: left;
