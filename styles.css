@@ -1859,6 +1859,53 @@ QUALITY WORK
         height: 24px;
     }
 
+    .getstarted__links--container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .getstarted-button {
+        margin: 0;
+        width: 135px;
+        padding: 12px 24px;
+        height: auto;
+        display: block;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .links__column--container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .links {
+        width: calc(100% / 3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 48px;
+    }
+
+    .copyright__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copyright__text {
+        font-size: 14px;
+        margin-top: 32px;
+    }
+
+    .social__links--container {
+        margin-top: 32px;
+    }
+
     .navbar__menu--button {
         display: flex;
     }
