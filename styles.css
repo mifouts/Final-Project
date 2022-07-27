@@ -854,7 +854,7 @@ QUALITY WORK
 
 .pricing__plans--container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
@@ -1749,6 +1749,10 @@ QUALITY WORK
     align-items: center;
    }
 
+   .plan {
+    align-items: center;
+   }
+
 
     .customer__info--container {
         text-align: left;
@@ -1769,4 +1773,11 @@ QUALITY WORK
       .nav {
         margin: 8px 0;
       }
+}
+
+@media (max-width: 1024px) {
+    .pricing__plans--container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
