@@ -1618,7 +1618,6 @@ QUALITY WORK
     .landing__img {
         padding-right: 0;
         width: 100%;
-        align-items: center;
     }
 
     .features .section__heading {
@@ -1755,6 +1754,22 @@ QUALITY WORK
 
    .testimonials {
     flex-direction: column;
+   }
+
+   .testimonial__img--wrapper {
+    width: 100%;
+   }
+
+   .testimonial__description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .testimonial__description .section__heading {
+    text-align: center;
+    font-size: 30px;
    }
 
 
