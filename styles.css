@@ -37,6 +37,7 @@ p{
     overflow: hidden;
     min-height: 100vh;
     font-family: 'Inter', system-ui;
+    margin: 0 auto;
 }
 
 
@@ -652,6 +653,7 @@ QUALITY WORK
     width: 100%;
     border: 1px solid #e5e7eb;
     border-radius: 0.25rem;
+    margin: 0 auto;
 }
 
 .quality-work__button {
@@ -763,6 +765,7 @@ QUALITY WORK
 
 .values__img {
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .values__para {
@@ -1159,6 +1162,7 @@ QUALITY WORK
 
 .testimonial__img {
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .testimonial__img--wrapper {
