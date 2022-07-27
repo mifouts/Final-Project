@@ -1392,11 +1392,22 @@ QUALITY WORK
     border-radius: 9999px;
     font-weight: 700;
     color: white;
+    transition: 300ms ease;
+}
+
+.getstarted-button:hover {
+    background-color: #e53e3e;
+}
+
+.getstarted2:hover {
+    background-color: white;
+    color: #6415ff;
 }
 
 .getstarted1 {
     margin-right: 32px;
     background-color: rgb(245, 101, 101);
+    transition-property: background-color;
     transition: all 300ms ease 0s;
 }
 
@@ -1770,6 +1781,18 @@ QUALITY WORK
    .testimonial__description .section__heading {
     text-align: center;
     font-size: 30px;
+   }
+
+   .testimonial__description .section__description {
+    font-size: 14px;
+    text-align: center;
+   }
+
+   .customer__review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
    }
 
 
