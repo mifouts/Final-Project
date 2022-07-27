@@ -1282,6 +1282,10 @@ QUALITY WORK
     width: 100%;
 }
 
+.faqs__row {
+    width: 100%;
+}
+
 .faqs__header--container {
     margin-top: 40px;
     display: flex;
@@ -1357,6 +1361,7 @@ QUALITY WORK
     margin-left: auto;
     margin-right: auto;
     padding: 80px 0;
+    width: 100%;
 }
 
 .getstarted__background--container {
